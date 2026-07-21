@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="w-full bg-white/50 backdrop-blur-lg shadow-sm fixed  top-0 left-0 z-40 ">
+    <div class="max-w-7x1.5 mx-auto flex ml-10 items-center justify-between px-1 py-4">
+
+      <!-- Logo -->
+      <div class="flex items-center cursor-pointer">
+        <div class="w-12 h-12  rounded-full flex items-center justify-center">
+          <img src="./img/bird flower.jpg" alt="Logo" class="w-10 h-10  rounded-full">
+        </div>
+        <h1 class="font-serif text-2xl font-bold   tracking-tight">Avon</h1>
+      </div>
+
+      <!-- Navigation -->
+      <!-- Navigation -->
+      <nav>
+        <!-- Desktop Menu -->
+        <ul class="hidden lg:flex items-center gap-2 text-gray-600 font-medium">
+
+          <li><a href="home.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Home</a>
+          </li>
+
+          <li><a href="Flower.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Fresh
+              Flowers</a></li>
+
+          <li><a href="Gift.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Gift
+              Occasions</a></li>
+
+          <li><a href="Event.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Events</a>
+          </li>
+
+          <li><a href="Pakage.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Packaging</a>
+          </li>
+
+          <li><a href="testiminoils.html"
+              class="hover:text-green-900 focus:bg-green-950 focus:text-white hover:bg-[#F7F2E3] rounded-full p-3">Testimonials</a>
+          </li>
+
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-btn" class="lg:hidden text-3xl text-green-900">
+          ☰
+        </button>
+      </nav>
+
+      <!-- WhatsApp Button -->
+      <a href="#"
+        class="hidden lg:flex bg-green-500 hover:bg-green-600 mr-9 text-white px-5 py-2 rounded-full items-center gap-2 font-semibold transition duration-300 shadow-lg">
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 32 32">
+          <path
+            d="M19.11 17.21c-.29-.14-1.72-.85-1.99-.95-.27-.1-.46-.14-.66.14-.19.29-.76.95-.93 1.15-.17.19-.34.22-.63.07-.29-.14-1.21-.45-2.31-1.43-.85-.76-1.43-1.7-1.6-1.99-.17-.29-.02-.45.13-.6.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.58-.9-2.16-.24-.58-.48-.5-.66-.51h-.56c-.19 0-.51.07-.78.36-.27.29-1.02 1-.99 2.43.03 1.43 1.03 2.81 1.17 3 .14.19 2.01 3.07 4.87 4.3.68.29 1.21.46 1.63.59.68.22 1.3.19 1.79.12.55-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.34z" />
+        </svg>
+
+        Chat with Us
+      </a>
+
+    </div>
+  </header>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden fixed top-20 left-0 w-full bg-white shadow-lg z-50">
+
+    <ul class="flex flex-col text-center py-5 space-y-4 font-medium">
+
+      <li><a href="home.html">Home</a></li>
+      <li><a href="Flower.html">Fresh Flowers</a></li>
+      <li><a href="Gift.html">Gift Occasions</a></li>
+      <li><a href="Event.html">Events</a></li>
+      <li><a href="Pakage.html">Packaging</a></li>
+      <li><a href="testiminoils.html">Testimonials</a></li>
+
+      <li>
+        <a href="#" class="inline-block bg-green-500 text-white px-5 py-2 rounded-full">
+          Chat with Us
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+
+
+  <!-- Section Top -->
+  <!-- hero section -->
+  <section class="relative min-h-[80vh] flex items-center overflow-hidden bg-[#fcf9f6]">
+    <img
+  src="./src/imag/1.jpeg"
+  alt="Flower Background"
+  class="absolute inset-0 w-full h-full object-cover object-center
+  animate-pulse duration-1000"/>
+  
+    <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/70 to-transparent"></div>
+
+    <div class="relative z-10 w-full mx-auto max-w-8xl px-2 sm:px-8 py-20 lg:py-32">
+      <!-- Applied the entry animation class to the content container below -->
+      <div class="max-w-2xl animate-reveal">
+        <div data-aos="fade-up"
+          class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-[#f3e1df] bg-white/90 backdrop-blur-sm mb-8 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-flower2 w-4 h-4" style="color: oklch(0.65 0.08 30)">
+            <path
+              d="M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1">
+            </path>
+            <circle cx="12" cy="8" r="2"></circle>
+            <path d="M12 10v12"></path>
+            <path d="M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z"></path>
+            <path d="M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z"></path>
+          </svg>
+          <span class="text-xs sm:text-sm font-medium tracking-wide text-slate-700">Delivering Happiness Since
+            2015</span>
+        </div>
+
+        <h1 data-aos="fade-up"
+          class="font-display text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#0a2219] leading-[1.12]">
+          Celebrate Every <br class="hidden sm:inline" />
+          <span class="text-[#d7a09b] italic font-bold">Moment</span> with
+          <br class="hidden lg:inline" />Elegance
+        </h1>
+
+        <p data-aos="fade-up"
+         class="mt-6 text-base sm:text-lg leading-relaxed text-slate-700 max-w-xl">
+          From fresh flowers to bespoke gifts, stunning event decor to premium
+          packaging — we craft unforgettable experiences for life's precious
+          moments.
+        </p>
+
+        <div  class="mt-10 flex flex-wrap items-center gap-4">
+          <a data-aos="fade-up" href="#"
+            class="inline-flex items-center justify-center rounded-full bg-[#0f4b39] px-8 py-4 text-base font-semibold text-white transition-all duration-300 transform hover:bg-[#0a3528] hover:scale-105 hover:shadow-lg">
+            Explore Gifts &nbsp; →
+          </a>
+
+          <a data-aos="fade-up"  href="#"
+            class="inline-flex items-center justify-center gap-2.5 rounded-full border border-slate-400 bg-white/40 backdrop-blur-sm px-8 py-4 text-base font-semibold text-slate-800 transition-all duration-300 transform hover:bg-white hover:border-slate-900 hover:scale-105">
+            <img class="h-5 w-5 opacity-80" src="src/imag/message.svg" alt="Chat Icon" />
+            <span>Contact Us</span>
+          </a>
+        </div>
+
+        <!-- Social Icons -->
+        <div data-aos="fade-up" class="flex pt-6 gap-2.5">
+          <a href="https://wa.me" target="_blank">
+            <img class="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-105"
+              src="./src/icon/w-removebg-preview.png" alt="">
+          </a>
+          <a href="https://www.facebook.com" target="_blank"">
+                    <img class=" w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-105"
+            src="./src/icon/f-removebg-preview.png" alt="">
+          </a>
+          <a href="https://x.com" target="_blank">
+            <img class="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-105"
+              src="./src/icon/t-removebg-preview.png" alt="">
+          </a>
+
+          <a href="https://www.instagram.com" target="_blank">
+            <img class="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-105"
+              src="./src/icon/i-removebg-preview.png" alt="">
+          </a>
+
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https" target="_blank">
+            <img class="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-105"
+              src="./src/icon/s-removebg-preview.png" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <div  class="bg-[#F9F5E8] md:flex-row">
+    <div data-aos="fade-up" class="flex flex-col  items-center justify-center gap-3 pt-25">
+
+      <h2  class="text-5xl font-semibold font-serif">Our Services</h2>
+
+
+
+      <p class="text-xl text-gray-600 ">Everything you need to make every occasion extraordinary</p>
+
+    </div>
+    <!-- Our Services Card -->
+    <div class=" py-20 grid md:grid-cols-2 grid-1 gap-6 px-10  ">
+      <div data-aos="fade-up" class="w-full rounded-xl shadow-lg overflow-hidden cursor-pointer ">
+        <img class="rounded-xl hover:scale-105 transition-transform duration-300" src="./src/imag/1.jpeg" alt="">
+        <div class="m-7">
+
+          <h3 class="text-[24px] font-serif font-extralight  flex items-center gap-4"><img class=" rounded-2xl w-6.25 h-6.25 "
+              src="./img/bird flower.jpg" alt="">Fresh Flowers</h3>
+          <p class="py-3 text-gray-500">Handcrafted bouquets and single stems delivered fresh to your doorstep</p>
+          <button class="text-[#BB8BAD] flex items-center gap-2 cursor-pointer">Explore <img class=""
+              src="./src/imag/right-1.svg" alt=""></button>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="w-full rounded-xl shadow-lg overflow-hidden cursor-pointer">
+        <img class="rounded-xl hover:scale-105 transition-transform duration-300" src="./src/imag/2.jpeg" alt="">
+        <div class="m-7">
+
+          <h3 class="text-[24px] font-serif font-extralight flex items-center gap-4"><img class=" rounded-2xl w-6.25 h-6.25 "
+              src="./img/get well sonn gft.jpg" alt="">Gift Occasions</h3>
+          <p class="py-3 text-gray-500">Curated gifts for every celebration — from Hajj to birthdays and beyond</p>
+          <button class="text-[#BB8BAD] flex items-center gap-2 cursor-pointer">Explore <img class=""
+              src="./src/imag/right-1.svg" alt=""></button>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="w-full rounded-xl shadow-lg overflow-hidden cursor-pointer">
+        <img class="rounded-xl hover:scale-105 transition-transform duration-300" src="./src/imag/3.jpeg" alt="">
+        <div class="m-7">
+
+          <h3 class="text-[24px] font-serif font-extralight flex items-center gap-4"><img class=" rounded-2xl w-6.25 h-6.25 "
+              src="./img/wedding stge.jpg" alt="">Event Decoration</h3>
+          <p class="py-3 text-gray-500">Transform your venue into a breathtaking experience</p>
+          <button class="text-[#BB8BAD] flex items-center gap-2 cursor-pointer">Explore <img class=""
+              src="./src/imag/right-1.svg" alt=""></button>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="w-full rounded-xl shadow-lg overflow-hidden cursor-pointer">
+        <img class="rounded-xl hover:scale-105 transition-transform duration-300" src="./src/imag/4.jpeg" alt="">
+        <div class="m-7">
+
+          <h3 class="text-[24px] font-serif font-extralight flex items-center gap-4"><img class=" rounded-2xl w-6.25 h-6.25 "
+              src="./img/codolence new gft.jpg" alt="">Gift Packaging</h3>
+          <p class="py-3 text-gray-500">Premium wrapping and presentation that makes every gift unforgettable</p>
+          <button class="text-[#BB8BAD] flex items-center gap-2 cursor-pointer">Explore <img class=""
+              src="./src/imag/right-1.svg" alt=""></button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <!--.......................... Choose Avon Secction..................................... -->
+
+  <!-- Why Choose Avon -->
+  <section class="bg-[#FDFCF8] py-16">
+
+    <div  class="max-w-7xl mx-auto px-5 lg:px-12 flex flex-col lg:flex-row items-center gap-12">
+
+      <!-- Left -->
+      <div data-aos="fade-up" class="w-full lg:w-1/2">
+
+        <h2 class="text-3xl md:text-4xl font-serif font-semibold">
+          Why Choose Avon?
+        </h2>
+
+        <p class="text-gray-600 mt-4 text-base md:text-lg leading-8">
+          We don't just deliver gifts — we deliver emotions, wrapped in elegance and presented with care.
+        </p>
+
+        <div class="mt-8 space-y-6">
+
+          <div class="flex gap-4">
+            <img src="./src/icon/starIcon-preview.png" class="w-12 h-12">
+            <div>
+              <h3 class="font-semibold text-lg">Same-Day Delivery</h3>
+              <p class="text-gray-500 text-sm">Order before 2 PM for same-day delivery across the city.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <img src="./src/icon/starIcon-preview.png" class="w-12 h-12">
+            <div>
+              <h3 class="font-semibold text-lg">Handcrafted with Love</h3>
+              <p class="text-gray-500 text-sm">Every arrangement is carefully designed by our expert florists.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <img src="./src/icon/starIcon-preview.png" class="w-12 h-12">
+            <div>
+              <h3 class="font-semibold text-lg">100% Fresh Guarantee</h3>
+              <p class="text-gray-500 text-sm">We source only the freshest blooms for lasting beauty.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <img src="./src/icon/starIcon-preview.png" class="w-12 h-12">
+            <div>
+              <h3 class="font-semibold text-lg">Custom Creations</h3>
+              <p class="text-gray-500 text-sm">Tell us your vision and we'll bring it to life.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Right -->
+      <div data-aos="fade-left" class="w-full lg:w-1/2 relative">
+
+        <img src="./src/imag/2.jpeg" class="w-full h-[350px] md:h-[450px] object-cover rounded-2xl shadow-xl">
+
+        <div class="absolute bottom-5 left-5 bg-white rounded-2xl shadow-xl p-5 flex items-center gap-4">
+
+          <img src="./src/icon/giftIcon-preview.png" class="w-12 h-12">
+
+          <div>
+            <h3 class="font-bold text-lg">500+</h3>
+            <p class="text-gray-500 text-sm">Happy Deliveries Monthly</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA Section -->
+
+  <section class="relative mt-6">
+
+    <img  src="./src/imag/3.jpeg" class="w-full h-[400px] md:h-[500px] object-cover ">
+
+    <div class="absolute inset-0 bg-[#25452C]/90 "></div>
+
+    <div data-aos="fade-up" class="absolute inset-0 flex items-center justify-center">
+
+      <div class="text-center  text-white px-5 max-w-3xl">
+
+        <h2 class="text-3xl md:text-5xl font-bold">
+          Have Something Special in Mind?
+        </h2>
+
+        <p class="mt-5 text-base md:text-lg">
+          Upload 1–3 pictures with a description and we'll craft the perfect gift or decoration for you.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row justify-center gap-5">
+          <a href="https://wa.me/" target="_blank">
+            <button
+              class="bg-white text-green-900 px-6 py-3 rounded-full font-semibold flex items-center justify-center gap-2 hover:scale-105 transition">
+
+              <img src="./src/imag/message.svg">
+
+              Share Your Vision
+
+            </button>
+          </a>
+          <a href="Event.html">
+            <button
+              class="border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
+
+              Browse Events
+
+            </button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--.......................... Footer Secction..................................... -->
+
+  <!-- Footer -->
+  <footer class="bg-[#103C28] text-gray-300">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+      <!-- Logo -->
+      <div>
+
+        <div class="flex items-center gap-3">
+
+          <img src="./img/bird flower.jpg" class="w-12 h-12 rounded-full">
+
+          <h2 class="text-2xl font-serif text-white">
+            Avon
+          </h2>
+
+        </div>
+
+        <p class="mt-5 text-sm leading-7">
+          Crafting moments of joy through fresh flowers,
+          thoughtful gifts, and unforgettable event experiences.
+        </p>
+
+      </div>
+
+      <!-- Services -->
+      <div>
+
+        <h2 class="text-white text-xl font-serif mb-5">
+          Services
+        </h2>
+
+        <ul class="space-y-3">
+
+          <li><a href="Flower.html" class="hover:text-white">Fresh Flowers</a></li>
+
+          <li><a href="Gift.html" class="hover:text-white">Gift Occasions</a></li>
+
+          <li><a href="Event.html" class="hover:text-white">Event Decoration</a></li>
+
+          <li><a href="Pakage.html" class="hover:text-white">Gift Packaging</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- Company -->
+      <div>
+
+        <h2 class="text-white text-xl font-serif mb-5">
+          Company
+        </h2>
+
+        <ul class="space-y-3">
+
+          <li><a href="" class="hover:text-white">About Us</a></li>
+
+          <li><a href="#" class="hover:text-white">Contact</a></li>
+
+          <li><a href="#" class="hover:text-white">FAQ</a></li>
+
+          <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- Contact -->
+      <div>
+
+        <h2 class="text-white text-xl font-serif mb-5">
+          Get in Touch
+        </h2>
+
+        <ul class="space-y-3">
+
+          <li>info@avongifts.com</li>
+
+          <li>+92 300 1234567</li>
+
+          <li>Mon - Sat: 9AM - 9PM</li>
+
+        </ul>
+
+        <button
+          class="mt-6 bg-[#25D366] hover:bg-green-600 transition text-white px-5 py-3 rounded-full flex items-center gap-2">
+          <a href="https://wa.me/">
+
+            WhatsApp Us
+          </a>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+
+    <div class="border-t border-gray-600">
+
+      <div
+        class="max-w-7xl mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#A8B7B2]">
+
+        <p class="text-center md:text-left">
+          © 2024 Avon Gifts & Events. All rights reserved.
+        </p>
+
+        <p class="text-center md:text-right">
+          Delivering happiness, one gift at a time.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</body>
+
+</html>
