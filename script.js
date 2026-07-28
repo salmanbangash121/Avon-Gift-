@@ -43,3 +43,9 @@ menuLinks.forEach(link => link.addEventListener("click", closeMenu));
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeMenu();
 });
+
+
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
